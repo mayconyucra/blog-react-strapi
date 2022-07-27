@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.env                
+# cargado en todos los casos
+.env.local          
+# cargado en todos los casos, ignorado por git
+.env.[mode]         
+# solo se carga en el modo especificado
+.env.[mode].local   
+# solo se carga en el modo especificado, ignorado por git
+
+# Local Netlify folder
+.netlify
